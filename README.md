@@ -1,1 +1,4 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+### Improvements
+[ ] Move technical journey to home page
+[ ] Custom 404 page
+[ ] Improve the home page
