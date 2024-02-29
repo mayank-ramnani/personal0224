@@ -1,22 +1,19 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/layout.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
-import Footer from '../components/footer';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import Footer from "../components/footer";
 
-const name = 'Mayank Ramnani';
-export const siteTitle = 'Mayank Ramnani';
+const name = "Mayank Ramnani";
+export const siteTitle = "Mayank Ramnani";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Personal Website"
-        />
+        <meta name="description" content="Personal Website" />
         {/* <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -67,6 +64,5 @@ export default function Layout({ children, home }) {
       )}
       <Footer></Footer>
     </div>
-    
   );
 }
